@@ -1,0 +1,10 @@
+.vs/LoginSystem/v14/.suo
+.vs/LoginSystem/v14/.suo
+*.dll
+*.apk
+LoginSystem/bin/Debug/LoginSystem.pdb
+*.dex
+*.class
+LoginSystem/obj/Debug/android/bin/packaged_resources
+*.jm
+LoginSystem/obj/Debug/android/typemap.mj

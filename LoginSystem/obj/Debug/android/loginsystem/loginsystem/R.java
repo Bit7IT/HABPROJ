@@ -14,6 +14,10 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
+        public static final int NameField=0x7f050008;
+        public static final int PromptName=0x7f050007;
+        public static final int PromptPW=0x7f050009;
+        public static final int PwField=0x7f05000a;
         public static final int btnSignIn=0x7f050001;
         public static final int btnSignUp=0x7f050003;
         public static final int helloLabel=0x7f050004;
@@ -24,6 +28,7 @@ public final class R {
     }
     public static final class layout {
         public static final int main=0x7f030000;
+        public static final int signup=0x7f030001;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;
