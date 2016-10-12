@@ -1,3 +1,7 @@
+LoginSystem.SignUp, LoginSystem;md5c65fa0486ebee89dbb6f0bf37323cf0f.SignUp
+LoginSystem.SignUp, LoginSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c65fa0486ebee89dbb6f0bf37323cf0f.SignUp
+LoginSystem.SignUp;md5c65fa0486ebee89dbb6f0bf37323cf0f.SignUp
+loginsystem.SignUp;md5c65fa0486ebee89dbb6f0bf37323cf0f.SignUp
 LoginSystem.MainActivity, LoginSystem;md5c65fa0486ebee89dbb6f0bf37323cf0f.MainActivity
 LoginSystem.MainActivity, LoginSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c65fa0486ebee89dbb6f0bf37323cf0f.MainActivity
 LoginSystem.MainActivity;md5c65fa0486ebee89dbb6f0bf37323cf0f.MainActivity

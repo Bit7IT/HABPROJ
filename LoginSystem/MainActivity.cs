@@ -11,23 +11,25 @@ namespace LoginSystem
     [Activity(Label = "", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
+        private Button mButton;
+
          protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-            Button button = FindViewById<Button>(Resource.Id.btnSignIn);
-            TextView TesttextView = FindViewById<TextView>(Resource.Id.helloLabel);
-            button.Click += delegate
-            {
-                TesttextView.Text = "Button Pressed";
-            };
+            mButton = FindViewById<Button>(Resource.Id.btnSignUp);
+            mButton.Click += mButtonClick;      
+           
+         }
 
-            //test comment
-            //test comment2, add more content
-
+        void mButtonClick(object sender, EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(SignUp));
+            this.StartActivity(intent);
 
         }
+
     }
 }
 

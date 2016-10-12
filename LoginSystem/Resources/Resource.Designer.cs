@@ -60,6 +60,18 @@ namespace LoginSystem
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050008
+			public const int NameField = 2131034120;
+			
+			// aapt resource value: 0x7f050007
+			public const int PromptName = 2131034119;
+			
+			// aapt resource value: 0x7f050009
+			public const int PromptPW = 2131034121;
+			
+			// aapt resource value: 0x7f05000a
+			public const int PwField = 2131034122;
+			
 			// aapt resource value: 0x7f050001
 			public const int btnSignIn = 2131034113;
 			
@@ -96,6 +108,9 @@ namespace LoginSystem
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int SignUp = 2130903041;
 			
 			static Layout()
 			{
